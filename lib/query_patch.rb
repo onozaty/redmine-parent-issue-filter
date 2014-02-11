@@ -17,10 +17,15 @@ module QueryPatch
       @available_filters = available_filters_without_parent_id
       
       parent_id_filters = {
-        "root_id" => { 
+        "parent_id" => { 
           :name => l(:field_parent_issue),
           :type => :integer, 
-          :order => @available_filters.size + 1}}
+          :order => @available_filters.size + 1},
+        "root_id" => { 
+          :name => l(:field_root_issue),
+          :type => :integer, 
+          :order => @available_filters.size + 2}
+      }
 
       return @available_filters.merge(parent_id_filters)
     end
