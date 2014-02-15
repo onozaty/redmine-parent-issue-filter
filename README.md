@@ -16,6 +16,14 @@ Added 2 filters on issues page.
 
 ![Screenshot of the root issue filter](screenshots/root.png)
 
+Installation
+------------
+
+Install the plugin in your Redmine plugins directory, clone this repository as `parent_issue_filter`:
+
+    cd {RAILS_ROOT}/plugins
+    git clone https://github.com/onozaty/redmine-parent-issue-filter.git parent_issue_filter
+
 Supported versions
 ------------------
 
