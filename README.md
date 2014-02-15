@@ -1,5 +1,5 @@
 Redmine parent issue filter
----------------------------
+===========================
 
 This a plugin added parent issue filter and root issue filter for the [Redmine](http://www.redmine.org).
 
@@ -8,11 +8,11 @@ Features
 
 Added 2 filters on issues page.
 
-### Parent issue filter
+### Parent task(issue) filter
 
 ![Screenshot of the root issue filter](screenshots/parent.png)
 
-### Root issue filter
+### Root task(issue) filter
 
 ![Screenshot of the root issue filter](screenshots/root.png)
 
