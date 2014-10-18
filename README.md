@@ -24,6 +24,8 @@ Install the plugin in your Redmine plugins directory, clone this repository as `
     cd {RAILS_ROOT}/plugins
     git clone https://github.com/onozaty/redmine-parent-issue-filter.git parent_issue_filter
 
+**note: The directory name must be a `parent_issue_filter`. Directory name is different, it will fail to run the Plugin.**
+
 Supported versions
 ------------------
 
