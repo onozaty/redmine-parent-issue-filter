@@ -27,7 +27,7 @@ module QueryPatch
           :order => @available_filters.size + 2}
       }
 
-      return @available_filters.merge(parent_id_filters)
+      return @available_filters.merge!(parent_id_filters)
     end
   end    
 end
